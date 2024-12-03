@@ -1,12 +1,8 @@
 **How To Run:**
 
--Install node.js: https://nodejs.org/en
-
--Install packages: 
-
 -In terminal or command line:
 
-npm install express
+npm install
 
 -Download the latest release from github (right side)
 
@@ -14,7 +10,7 @@ npm install express
 
 -Use the command:
 
-node server.js
+npm run dev
 
 -Open browser and go to:
 http://localhost:3000
