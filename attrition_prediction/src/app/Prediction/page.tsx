@@ -7,7 +7,8 @@ import {FaArrowLeft } from "react-icons/fa";
 export default function PredictionPage() {
   const router = useRouter()
   return (
-    <div className="w-full min-h-screen flex items-center justify-center p-5 ">
+    // <div className="w-full min-h-screen flex items-center justify-center p-5 ">
+    <div className="min-h-screen bg-gradient-to-r from-amber-300 via-orange-400 to-red-500 animate-gradient-flow bg-gradient-size flex items-center justify-center p-6 shadow-2xl">
       <div className="w-full max-w-[1200px] h-[900px] bg-white shadow-lg rounded-lg overflow-hidden">
         <iframe
           src="https://haniyahalzaben-employee-retention-prediction.hf.space"
